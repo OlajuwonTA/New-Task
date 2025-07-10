@@ -25,6 +25,7 @@
   padding-top: 200px;
   padding-left: 0;
   gap: 0;
+  width: 100%;
 }
 .house p {
   font-size: 24px;
@@ -67,11 +68,11 @@ button {
 }
 body {
   background-color: white;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
-  /* width: ; */
+  align-items: center;
+  width: 100%;
 }
 .engr {
   padding-top: 30px;
@@ -232,6 +233,65 @@ main {
   border-radius: 50%;
   margin-bottom: 10px;
 }
+.us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(4, 0, 255);
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.ABOUT {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.plumber{
+  color: white;
+  font-size: 40px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  padding-top: 70px;
+  gap:50px;
+  padding-bottom: 20px;
+}
+.get{
+  font-size: 45px;
+}
+.mission{
+  font-size: 40px;
+}
+.sample{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3b3a3a;
+  gap: 100px;
+  padding-top:30px ;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.click{
+  color: white;
+  width: 300px;
+  font-size:20px ;
+}
+.byme{
+  color: aliceblue;
+  
+}
 
 @media (min-width: 600px) {
   body {
@@ -385,6 +445,7 @@ align-items: center; */
     /* border: #d03030 2px solid; */
     padding-top: 0;
     line-height: 1.8rem;
+    padding-bottom: 40px;
   }
   .text {
     text-align: center;
